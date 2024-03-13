@@ -4,7 +4,6 @@ import { Card, Button, Container, Col, Row } from 'react-bootstrap';
 function ProductCard(props) {
     // const [image, setImage] = useState("");
     const [imageIndex, setImageIndex] = useState(0);
-    console.log("Prod:",props.product);
     const {product} = props;
 
     useEffect(() => {
