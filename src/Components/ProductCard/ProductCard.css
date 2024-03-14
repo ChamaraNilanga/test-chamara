@@ -1,0 +1,15 @@
+.product-card{
+    width: 10vw;
+}
+
+.product-card-title{
+    font-size: 15px;
+}
+
+.product-card-price{
+    font-size: 12px;
+}
+
+.product-card-des{
+    font-size: 10px;
+}

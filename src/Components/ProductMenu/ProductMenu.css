@@ -1,0 +1,13 @@
+.product-menu-div{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 80vh;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.product-menu-row{
+    row-gap: 10px;
+}

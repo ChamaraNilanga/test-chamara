@@ -1,0 +1,21 @@
+.dashboard-container{
+    padding: 5px;
+    margin-top:7.5vh;
+}
+
+.left-coloumn{
+    background-color: #f0f0f0;
+    height: 90.5vh;
+    border-radius : 10px;
+}
+
+.right-coloumn{
+    background-color: #ffffff;
+    height: 90.5vh;
+}
+
+.product-list-div{
+    padding: 5px;
+    background-color : whitesmoke;
+    border-radius : 10px;
+}

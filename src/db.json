@@ -9,7 +9,7 @@
   "products": [
     {
       "prodcutName": "I phone",
-      "price": 15000,
+      "price": 150000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "1",
@@ -21,7 +21,7 @@
     },
     {
       "prodcutName": "Samsung phone",
-      "price": 12000,
+      "price": 120000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "2",
@@ -33,7 +33,7 @@
     },
     {
       "prodcutName": "Huawei phone",
-      "price": 10000,
+      "price": 100000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "3",
@@ -45,7 +45,7 @@
     },
     {
       "prodcutName": "Oppo phone",
-      "price": 8000,
+      "price": 80000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "4",
@@ -57,7 +57,7 @@
     },
     {
       "prodcutName": "Vivo phone",
-      "price": 7000,
+      "price": 70000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "5",
@@ -69,7 +69,7 @@
     },
     {
       "prodcutName": "Realme phone",
-      "price": 6000,
+      "price": 60000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "6",
@@ -81,7 +81,7 @@
     },
     {
       "prodcutName": "Redmi phone",
-      "price": 5000,
+      "price": 50000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "7",
@@ -105,7 +105,7 @@
     },
     {
       "prodcutName": "Micromax phone",
-      "price": 3000,
+      "price": 30000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "9",
@@ -117,7 +117,7 @@
     },
     {
       "prodcutName": "Lava phone",
-      "price": 2000,
+      "price": 20000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "10",
@@ -129,7 +129,7 @@
     },
     {
       "prodcutName": "Intex phone",
-      "price": 1000,
+      "price": 10000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "11",
@@ -141,7 +141,7 @@
     },
     {
       "prodcutName": "Karbonn phone",
-      "price": 500,
+      "price": 50000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "12",
@@ -153,7 +153,7 @@
     },
     {
       "prodcutName": "Lemon phone",
-      "price": 300,
+      "price": 30000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "13",
@@ -165,7 +165,7 @@
     },
     {
       "prodcutName": "Spice phone",
-      "price": 200,
+      "price": 2000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "14",
@@ -177,7 +177,7 @@
     },
     {
       "prodcutName": "Celkon phone",
-      "price": 100,
+      "price": 10000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "15",
@@ -189,7 +189,7 @@
     },
     {
       "prodcutName": "Gionee phone",
-      "price": 50,
+      "price": 5000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "16",
@@ -201,7 +201,7 @@
     },
     {
       "prodcutName": "Lava phone",
-      "price": 20,
+      "price": 20500,
       "description": "Costly Phone",
       "qty": 23,
       "id": "17",
@@ -213,7 +213,7 @@
     },
     {
       "prodcutName": "Intex phone",
-      "price": 10,
+      "price": 10500,
       "description": "Costly Phone",
       "qty": 23,
       "id": "18",
@@ -225,7 +225,7 @@
     },
     {
       "prodcutName": "Karbonn phone",
-      "price": 5,
+      "price": 50000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "19",
@@ -237,7 +237,7 @@
     },
     {
       "prodcutName": "Lemon phone",
-      "price": 3,
+      "price": 30000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "20",
@@ -249,7 +249,7 @@
     },
     {
       "prodcutName": "Spice phone",
-      "price": 2,
+      "price": 20000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "21",
@@ -261,7 +261,7 @@
     },
     {
       "prodcutName": "Celkon phone",
-      "price": 1,
+      "price": 10000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "22",
@@ -273,7 +273,7 @@
     },
     {
       "prodcutName": "Gionee phone",
-      "price": 0.5,
+      "price": 5000,
       "description": "Costly Phone",
       "qty": 23,
       "id": "23",

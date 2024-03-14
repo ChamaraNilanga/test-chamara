@@ -1,5 +1,6 @@
 import React , {useEffect , useState } from 'react';
 import { Card, Button, Container, Col, Row } from 'react-bootstrap';
+import './ProductCard.css';
 
 function ProductCard(props) {
     // const [image, setImage] = useState("");
@@ -20,14 +21,14 @@ function ProductCard(props) {
     <Container>
         <Row>
             <Col md={4}>
-                <Card style={{ width: '10vw' }}>
+                <Card className='product-card'>
                     <Card.Img variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title style={{fontSize:'15px'}}>{product.prodcutName}</Card.Title>
-                        <Card.Text style={{fontSize:'12px'}}>
+                        <Card.Title className='product-card-title' >{product.prodcutName}</Card.Title>
+                        <Card.Text className='product-card-price' >
                             Rs : {product.price}
                         </Card.Text>
-                        <Card.Text style={{fontSize:'10px'}}>
+                        <Card.Text className='product-card-des'>
                             {product.description}
                         </Card.Text>
                     </Card.Body>
