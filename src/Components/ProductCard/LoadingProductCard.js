@@ -5,7 +5,7 @@ function LoadingCard() {
   return (
     <Card style={{ width: '10vw' , height : '30vh' }}>
         <Card.Body>
-      <Spinner animation="border" variant="primary" style={{alignContent:'center'}}/>
+            <Spinner animation="border" variant="primary" style={{alignContent:'center'}}/>
       </Card.Body>
     </Card>
   );

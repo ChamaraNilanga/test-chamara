@@ -9,19 +9,26 @@ const ProductCard = lazy(() => import('../ProductCard/ProductCard'));
 
 function ProductMenu() {
   const [data, setData] = useState(products.products.slice(0, 7));
+  const [hasMore, setHasMore] = useState(true);
   const isLoading = useRef(false);
-console.log("Data:",data);
+  const columns = 3;
+  console.log("Data:",data);
   const loading = async () => {
-    if (!isLoading.current && data.length <= 20) {
+    if (!isLoading.current && data.length <= products.products.length) {
       isLoading.current = true;
 
       const newCardData = products.products.slice(data.length, data.length + 3);
-
       await setData((prevData) => [...prevData, ...newCardData]);
       
       isLoading.current = false;
+    }else{
+        setHasMore(false);
     }
   };
+
+  console.log('hasMore:', hasMore);
+  const loadingCardsCount = Math.ceil((columns - (data.length % columns)) % columns);
+
 
   return (
     <Container>
@@ -36,11 +43,11 @@ console.log("Data:",data);
         <InfiniteScroll //new
             pageStart={0}
             loadMore={loading}
-            hasMore={true || false}
+            hasMore={hasMore}
             useWindow={false}
             loader={<LoadingCard/>}
         >
-            <Row>
+            <Row style={{rowGap:'10px'}}>
                 {data.map((data, index) => (
                     <Col md={4} key={index}>
                         <Suspense fallback={<LoadingCard />}>

@@ -9,9 +9,9 @@ function TopNavBar() {
         <Navbar.Brand href="/">STOREMATE</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-            <div class="avatar bg-primary text-white" style={{borderRadius:'100%' , marginRight : '10px',padding:'5px'}}>CN</div> 
+            <div class="avatar text-black" style={{backgroundColor:'whitesmoke' ,borderRadius:'100%' , marginRight : '10px',padding:'5px'}}>LK</div> 
             <Navbar.Text>
-           <a href="#login">Chamara Nilanga</a>
+           <a href="#login">Lahiru Kavinda</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
@@ -19,4 +19,4 @@ function TopNavBar() {
   )
 }
 
-export default TopNavBar
+export default TopNavBar;
